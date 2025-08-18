@@ -1,0 +1,18 @@
+api_version = "2025-07"
+
+[[extensions]]
+name = "cart-app-metafield"
+handle = "cart-app-metafield"
+type = "ui_extension"
+
+
+[[extensions.targeting]]
+module = "./src/Checkout.tsx"
+target = "purchase.checkout.block.render"
+
+[extensions.capabilities]
+api_access = true
+
+[[extensions.metafields]]
+namespace = "$app"
+key = "my-product-metafield"
