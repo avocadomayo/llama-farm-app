@@ -1,7 +1,10 @@
 import {
-  reactExtension,
   Banner,
+  Button,
+  BlockStack,
+  reactExtension,
 } from "@shopify/ui-extensions-react/customer-account";
+import { useState } from "react";
 
 export default reactExtension(
   "customer-account.order-index.block.render",
@@ -9,5 +12,13 @@ export default reactExtension(
 );
 
 function Extension() {
-  return <Banner>This is rendered on remote ui</Banner>;
+  const [showBanner, setShowBanner] = useState(false);
+  return (
+    <BlockStack>
+      <Button onPress={() => setShowBanner(true)}>Show banner</Button>
+      {showBanner && (
+        <Banner>I'm broken in Chrome and break everything in the screen</Banner>
+      )}
+    </BlockStack>
+  );
 }
