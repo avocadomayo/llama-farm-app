@@ -8,6 +8,7 @@ api_version = "2025-01"
 [[extensions]]
 name = "payment-3"
 handle = "payment-3"
+uid = "58590306-1101-292e-1fd3-6bcf98f88019df3e15cb"
 type = "ui_extension"
 
 

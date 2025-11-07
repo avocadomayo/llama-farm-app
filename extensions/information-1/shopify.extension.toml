@@ -8,6 +8,7 @@ api_version = "2025-01"
 [[extensions]]
 name = "information-1"
 handle = "information-1"
+uid = "4ef6a9e5-2447-47b8-4603-0dcacdbc8f4a7889e6fb"
 type = "ui_extension"
 
 

@@ -8,6 +8,7 @@ api_version = "2025-01"
 [[extensions]]
 name = "wallets-1"
 handle = "wallets-1"
+uid = "252e35ed-2e9b-05e6-64b8-0a7fce3a40d684a99cf6"
 type = "ui_extension"
 
 

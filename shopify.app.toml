@@ -11,7 +11,8 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+# read_orders,write_orders,read_order_edits,write_order_edits
+scopes = "write_products,read_customers"
 
 [auth]
 redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
@@ -20,5 +21,4 @@ redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
 embedded = false
 
 [build]
-include_config_on_deploy = true
 dev_store_url = "llama-farm.myshopify.com"

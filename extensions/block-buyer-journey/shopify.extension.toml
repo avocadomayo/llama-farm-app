@@ -8,6 +8,7 @@ api_version = "2025-01"
 [[extensions]]
 name = "block-buyer-journey"
 handle = "block-buyer-journey"
+uid = "2c6c0041-d6fc-23c7-757a-9f23680431e82039a274"
 type = "ui_extension"
 
 

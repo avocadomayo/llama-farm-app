@@ -8,6 +8,7 @@ api_version = "2025-01"
 [[extensions]]
 name = "delivery-1"
 handle = "delivery-1"
+uid = "bda6125b-2484-6a70-53cb-30a05026613e27671971"
 type = "ui_extension"
 
 

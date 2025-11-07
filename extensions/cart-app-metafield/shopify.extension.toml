@@ -3,6 +3,7 @@ api_version = "2025-07"
 [[extensions]]
 name = "cart-app-metafield"
 handle = "cart-app-metafield"
+uid = "d220d74c-7c2e-9e4c-a84e-3482de04610834c3c77b"
 type = "ui_extension"
 
 
